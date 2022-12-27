@@ -6,22 +6,22 @@
 }
   
 .white-bg {
-    background: var(--white-color);
-    color: var(--primary-color);
+  background: var(--white-color);
+  color: var(--primary-color);
 }
   
 .main-content {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding:5rem var(--gap);
+  max-width: 120rem;
+  margin: 0 auto;
+  padding:10rem var(--gap);
 }
   
 .section {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .menu-spacing {
-  height: 6rem;
+  height: 6.5rem;
 }
 
 body .full-width {
