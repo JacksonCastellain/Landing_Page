@@ -1,69 +1,78 @@
-
-
-
-* {
-    margin: 0;
-    padding: 0;
+.intro-content {
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
 }
 
-html {
-    font-size: 62,5%;
+.intro .main-bg .section{
+    margin-top: 1rem;
+}
+.intro-content p {
+    font-size: 1.8rem;
 }
 
-body {
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 1.2rem;
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+  
+.intro-img img,
+.intro-img svg {
+    max-width: 95%;
+    height: auto;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Unbounded', cursive;
+.top3-content {
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
 }
 
-h1 {
-    font-size: 4rem;
-    text-transform: uppercase;
+.grid-one-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
 }
-
-h2 {
-    font-size: 5.5rem;
+  
+.grid-main-heading {
+    margin-bottom: 1rem;
 }
-
-h3 {
-    font-size: 5rem;
+  
+.grid-description {
+    padding-bottom: 5rem;
 }
-
-h4 {
-    font-size: 4.5rem;
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
 }
-
-h5 {
-    font-size: 4rem;
+  
+.grid h3 {
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
 }
-
-h6 {
-    font-size: 3.5rem;
-}
-
-.main-bg {
-    background-image: url('../img/background.svg');
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-}
-
-.white-bg {
-    background: #fff;
-}
-
-
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 3rem;
-}
-
-.section{
-    min-height: 100vh;
+  
+.grid h3::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+    top: -4rem;
+    left: -2rem;
+    transform: rotate(5deg);
 }
 
   

@@ -7,26 +7,93 @@
     <title>Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link 
      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500&family=Unbounded:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/CSS/styless.css">
 </head>
-<body>
-    <section class="main-bg section">
-        <div class="main-content">
-            <h1>Jackson</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste, deserunt vero cupiditate accusamus nemo ad eos eius, incidunt est ex nobis. Quia animi saepe neque, rem cumque molestiae officia.</p>
+
+<body class="main-bg">
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1>
+          <a href="#home">LOGO</a>
+        </h1>
+  
+        <nav>
+          <ul>
+            <li><a href="#">contact</a></li>
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#grid-one">grid-one</a></li>
+            <li><a href="#gallery">gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Onde quer que você esteja você sempre estará lá.</h2>
+          <p>Agora, mais do que nunca, é a hora.. Se barba fosse respeito, bode não tinha chifre.. O dinheiro não traz felicidade, então, dê todo o seu pra mim e seja feliz.. Como se escreve o número 0 em algarismos romanos?. Onde quer que você esteja você sempre estará lá..
+
+            Sonhar que está comendo uma maria-mole gigante pode significar acordar sem o travesseiro!. You say potatoe, I say starchy carbs. Na vida tudo é passageiro, menos o motorista e o cobrador…. É hoje que eu volto amanhã.. Uma coisa é certa: ninguém sai vivo dessa vida..</p>
         </div>
-    </section>
-    <section class="white-bg section">
-        <div class="main-content">
-            <h1>Jackson</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur 
-adipisicing elit. Doloribus iste, deserunt vero 
-cupiditate accusamus nemo ad eos eius, incidunt est ex 
-nobis. Quia animi saepe neque, rem cumque molestiae 
-officia.</p>
+        <div class="intro-img">
+          <img src="assets/img/image.svg" alt="Imagem de um homem">
         </div>
+      </div>
     </section>
 
-
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>news coverage and some
+          surprises</h2>
+        <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+          surprises at the machine’s performance. This post details some background information on the experience of
+          porting Firefox to run natively on these CPUs.</p>
+        <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+          know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+        <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and
+          discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various
+          other improvements that are in the pipeline.</p>
+      </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My Grid</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+  
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  
+    <section id="gallery" class="section white-bg">
+      <div class="main-content">
+        <h1>teste</h1>
+      </div>
+    </section>
 </body>
+
 </html>
