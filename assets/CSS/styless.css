@@ -63,7 +63,7 @@
   position: absolute;
   font-size: 6rem;
   font-style: monospace;
-  top: -3.5rem;
+  top: -4rem;
   left: -2rem;
   transform: rotate(6deg);
 }
@@ -258,8 +258,15 @@
     h3 {
       font-size: 3.4rem;
     }
+    .intro-img2{
+      display: none;
+    }
   
-  }
+    .intro-img1 img{
+      max-width: 16rem;
+    }
+  
+}
 
   
     
