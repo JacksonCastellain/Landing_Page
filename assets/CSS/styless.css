@@ -52,31 +52,30 @@
 
 .container {
   max-width: 32rem;
-  
   margin: 5rem auto;
   background:transparent;
   padding: 1.8rem;
   border-radius: 10px;
 }
 
-form input, form label, form button {
+ #formulario, input, form label, form button {
   display: block;
   width: 100%;
   margin-bottom: 1px;
   border-radius: 8px;
 }
 
-form input {
+#formulario form, input {
   font-size: 20px;
   height: 4rem;
   padding: 1.5rem 2rem;
 }
 
-form input:focus {
+#formulario form, input:focus {
   outline: 1px solid var(--primary-color);
 }
 
-form button {
+#formulario form, button {
   border: none;
   background: var(--primary-color);
   color: #fff;
@@ -87,13 +86,13 @@ form button {
   margin-top: 30px;
 }
 
-form button:hover {
+#formulario form, button:hover {
   background:#fff;
   color:rgb(9, 48, 56);
 }
 
 .paragrafo-resultado, .bad {
-  background: rgb(109, 255, 182);
+  background:rgba(8, 2, 65, 0.356);
   padding: 10px 20px;
   border-radius: 8px;
 }
