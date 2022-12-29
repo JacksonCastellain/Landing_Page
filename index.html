@@ -76,9 +76,18 @@
         <div class="grid">
           <article>
             <h3>Teste 1</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
+            <section class="container">
+              <h4>Calcule seu IMC</h4>
+              <form action="/" id="formulario" method="POST">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso">
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura">
+                <button type="submit">Enviar</button>
+              </form>
+          
+              <div id="resultado"></div>
+            </section>
           </article>
           <article>
             <h3>Teste 2</h3>
