@@ -49,7 +49,8 @@
   gap: var(--gap);
   counter-reset: grid-counter;
 }
-
+/* Início da calculadora de IMC
+   Foi adicionadda posteriormente*/
 .container {
   max-width: 32rem;
   margin: 5rem auto;
@@ -100,7 +101,7 @@
 .bad {
   background: rgb(255, 150, 150);
 }
-
+/*Fim da calculadora de IMC*/
 
 .grid h3 {
   font-size: 3rem;
