@@ -35,6 +35,11 @@ h2 {
 h3 {
     font-size: 5rem;
 }
+
+h5{
+    font-style: oblique;
+    color:rgba(11, 4, 77, 0.5);
+}
   
 a {
     text-decoration: none;
