@@ -200,8 +200,11 @@
     color: var(--white-color);
     padding: 1.5rem 2rem;
     font-size: 1.5rem;
+    display: flex;
+    align-content: center;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    
 }
   
 .form-group button:hover {
@@ -212,6 +215,13 @@
 .form-group ::placeholder {
     color: var(--light-gray-color);
     font-size: 1.5rem;
+}
+.form-group button, .message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 0.8rem;
 }
     
 .close-menu {
